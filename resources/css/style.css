@@ -8,6 +8,8 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 80px;
+  position: fixed;
+  width: 100%;
 }
 
 #logo {
@@ -28,4 +30,55 @@ nav {
 nav span {
   display: inline-block;
   padding: 10px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding-top: 116px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.mainstory {
+  display: flex;
+  flex-direction: column;
+  border: 1px; solid black
+}
+
+.mainstory h1 {
+  border: 2px solid black;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+
+.camera.photo-content {
+  border: 2px solid black;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.news-bites {
+  border: 2px solid black;
 }
