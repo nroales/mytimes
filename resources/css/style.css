@@ -52,21 +52,25 @@ main {
 .mainstory {
   display: flex;
   flex-direction: column;
-  border: 1px; solid black
 }
 
-.mainstory h1 {
-  border: 2px solid black;
+.mainstory span {
+  background-image: url("../photos/img-story-main.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  height: 300px;
+  width: 630px;
+}
+
+.stories {
+  display: flex;
 }
 
 .story {
   display: flex;
   flex-direction: column;
-  border: 2px solid black;
-}
-
-.camera.photo-content {
-  border: 2px solid black;
 }
 
 .column.medium {
@@ -75,10 +79,48 @@ main {
 
 .column.small {
   width: 240px;
-  display: flex;
   align-items: flex-start;
 }
 
 .news-bites {
-  border: 2px solid black;
+
+}
+
+.narrative {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.cat.photo-content {
+  background-image: url("../photos/img-story-1.png");
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  width: 300px;
+}
+
+.earth.photo-content {
+  background-image: url("../photos/img-story-2.png");
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  width: 300px;
+}
+
+.camera.photo-content {
+  background-image: url("../photos/img-story-3.png");
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  width: 300px;
 }
